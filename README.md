@@ -5,16 +5,21 @@ A practical framework for data quality test strategy, featuring ISTQB-based temp
 ## Repository Structure
 
 ```
-/
-├── test-cases/
-│ ├── equivalence-partitioning.md
+├── LICENSE
+├── README.md
+├── requirements.md
+├── templates/
+│ ├── defect-management/
+│ │ ├── bug-report-template.md
+│ │ └── defect-life-cycle.md
+│ └── test-cases/
 │ ├── boundary-value-analysis.md
 │ ├── decision-table-testing.md
+│ ├── equivalence-partitioning.md
 │ └── state-transition-testing.md
-├── defect-management/
-│ ├── defect-life-cycle.md
-│ └── bug-report-template.md
-└── README.md
+├── tests/
+│ ├── defect-management/
+│ └── test-cases/
 ```
 
 ## What’s Inside
