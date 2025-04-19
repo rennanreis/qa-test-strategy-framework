@@ -1,5 +1,7 @@
 # QA Test Strategy Framework
 
+> **Note:** This project is intended for personal portfolio purposes. External contributions (pull requests, issues) are not being accepted at this time.
+
 A practical framework for data quality test strategy, featuring ISTQB-based templates, real-world examples (using Sauce Labs demo site), and defect management best practices for Agile teams.
 
 ## Repository Structure
@@ -19,21 +21,49 @@ A practical framework for data quality test strategy, featuring ISTQB-based temp
 │ └── state-transition-testing.md
 ├── tests/
 │ ├── defect-management/
+│ │ ├── bug-report-example.md
+│ │ └── defect-life-cycle-example.md
+| ├── evidence/
 │ └── test-cases/
+│ ├── equivalence-partitioning-login.md
+│ ├── boundary-value-analysis-postalcode.md
+│ ├── decision-table-testing-checkout.md
+│ └── state-transition-testing-cart-checkout.md
 ```
 
 ## What’s Inside
 
-- **test-cases/**  
+- **/templates/defect-management/**  
+  - Defect life cycle documentation template
+  - Clear and reproducible bug report template
+
+- **/templates/test-cases/**  
   Ready-to-use test case templates using industry-standard techniques:
   - Equivalence Partitioning
-  - Boundary Value Analysis
+  - Boundary Value Analysisgit log
   - Decision Table Testing
   - State Transition Testing
 
-- **defect-management/**  
-  - Defect life cycle documentation
-  - Clear and reproducible bug report template
+- **/tests/defect-management/**  
+  Real examples of defect documentation:
+  - `bug-report-example.md`: Example bug report for a checkout defect
+  - `defect-life-cycle-example.md`: Example defect life cycle for the same bug
+
+- **/tests/evidence/**  
+  Screenshots proving test execution results (success, errors, defects).
+
+- **/tests/test-cases/**  
+  Filled examples of test cases applied to real scenarios from the Sauce Labs Demo site:
+  - `equivalence-partitioning-login.md`: Login with valid and invalid credentials
+  - `boundary-value-analysis-postalcode.md`: Postal code field validation in checkout
+  - `decision-table-testing-checkout.md`: Checkout input combinations
+  - `state-transition-testing-cart-checkout.md`: Cart to checkout flow
+
+- **requirements.md**  
+  List of functional requirements covered by the tests.
+
+- **traceability-matrix.md**:
+   Matrix mapping each functional requirement to its corresponding test cases, ensuring complete coverage and traceability.
 
 ## How to Use
 
