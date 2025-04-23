@@ -65,6 +65,10 @@ A practical framework for data quality test strategy, featuring ISTQB-based temp
 - **traceability-matrix.md**:
    Matrix mapping each functional requirement to its corresponding test cases, ensuring complete coverage and traceability.
 
+## About Test Evidence and Equivalence Classes
+
+Each screenshot in this repository is a representative example for an equivalence class or unique system response, following the Equivalence Partitioning technique. For each group of inputs that produce the same system behavior (e.g., valid login, invalid login), only one representative test and its evidence are documented. If multiple invalid inputs (such as wrong credentials or empty fields) trigger the same error message, a single screenshot is provided for that equivalence class. This approach keeps the documentation concise and focused, while ensuring full coverage.
+
 ## How to Use
 
 1. Clone this repository.

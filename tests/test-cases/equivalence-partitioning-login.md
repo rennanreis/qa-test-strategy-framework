@@ -29,3 +29,10 @@ Verify that the system allows login for valid users and rejects invalid users.
 
 ## Postconditions:
 - User is either logged in or sees an error message.
+
+## Evidence
+### Valid Login
+![Login success](../evidence/login-valid-success.png)
+
+### Invalid Login
+![Login error](../evidence/login-invalid-error.png)
