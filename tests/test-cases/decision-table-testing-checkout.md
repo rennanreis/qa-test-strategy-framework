@@ -37,3 +37,15 @@ Verify that the system correctly validates all required fields during checkout a
 ## Postconditions:
 - User proceeds to the next checkout step or sees a validation error.
 - For complete checkout, user sees order confirmation page.
+
+## Evidence
+
+### Successful Checkout
+![Successful checkout - Products](../evidence/checkout-success-001.png)
+![Successful checkout - Cart](../evidence/checkout-success-002.png)
+![Successful checkout - Checkout: Your Information](../evidence/checkout-success-003.png)
+![Successful checkout - Checkout: Overview](../evidence/checkout-success-004.png)
+![Successful checkout - Checkout: Complete!](../evidence/checkout-success-005.png)
+
+### Error: Missing First Name
+![Checkout error - Checkout: Your Information](../evidence/checkout-error-missing-firstname.png)
