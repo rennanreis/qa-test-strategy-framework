@@ -35,3 +35,13 @@ Verify that the system correctly handles minimum, maximum, and out-of-bound valu
 
 ## Postconditions:
 - User proceeds to the next checkout step or sees a validation error.
+
+## Evidence
+
+### Valid Postal Code
+![Valid postal code - Cart](../evidence/postalcode-valid-success-001.png)![Valid postal code - Checkout](../evidence/postalcode-valid-success-002.png)![Valid postal code - Checkout Step Overview](../evidence/postalcode-valid-success-003.png)
+
+### Invalid Postal Code
+![Invalid postal code - Cart](../evidence/postalcode-invalid-error-001.png)
+![Invalid postal code - Checkout](../evidence/postalcode-invalid-error-002.png)
+![Invalid postal code - Checkout Failure](../evidence/postalcode-invalid-error-003.png)
