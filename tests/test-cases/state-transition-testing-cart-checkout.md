@@ -32,3 +32,14 @@ Verify that the system correctly handles state transitions from adding/removing 
 
 ## Postconditions:
 - User completes the purchase and sees a confirmation, or cart is updated accordingly.
+
+## Evidence
+
+### Empty Cart
+![Empty cart](../evidence/cart-empty.png)
+
+### Cart with Item
+![Cart with item](../evidence/cart-with-item.png)
+
+### Checkout Page
+![Checkout page](../evidence/checkout-page.png)
