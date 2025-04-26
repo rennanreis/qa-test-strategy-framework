@@ -1,8 +1,21 @@
 # QA Test Strategy Framework
 
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![Last Update](https://img.shields.io/github/last-commit/rennanreis/qa-test-strategy-framework)](https://github.com/rennanreis/qa-test-strategy-framework/commits/main)
+
 > **Note:** This project is intended for personal portfolio purposes. External contributions (pull requests, issues) are not being accepted at this time.
 
 A practical framework for data quality test strategy, featuring ISTQB-based templates, real-world examples (using Sauce Labs demo site), and defect management best practices for Agile teams.
+
+For more details about the rationale behind this framework, practical examples, and a step-by-step guide, read the full article on Medium:
+[QA Test Strategy Framework: How I Built a Real-World Manual Testing Portfolio with ISTQB Templates](https://medium.com/@rennanreis/qa-test-strategy-framework-how-i-built-a-real-world-manual-testing-portfolio-with-istqb-templates-39bff28f8926)
+
+## Quick Start
+
+1. **Clone this repository**
+2. **Browse the `/templates/` and `/tests/` folders** for ready-to-use examples and templates
+3. **For detailed instructions, see the "How to Use" section below**
 
 ## Repository Structure
 
@@ -71,10 +84,12 @@ Each screenshot in this repository is a representative example for an equivalenc
 
 ## How to Use
 
-1. Clone this repository.
-2. Use the test plan and test case templates to design your own tests.
-3. Apply the bug report template to track and communicate defects.
-4. Follow the defect life cycle for efficient defect management.
+1. **Clone this repository**
+2. **Use the test plan and test case templates** in `/templates/test-cases/` to design your own tests
+3. **Apply the bug report and defect life cycle templates** in `/templates/defect-management/` to track and communicate defects
+4. **Review the real-world examples** in `/tests/test-cases/` and `/tests/defect-management/` for practical inspiration
+5. **Refer to the traceability matrix** (`traceability-matrix.md`) to ensure your test cases cover all functional requirements
+6. **For a step-by-step walkthrough and rationale, see the Medium article linked above**
 
 ## Real-World Example
 
@@ -88,11 +103,11 @@ All templates and examples are applied to the [Sauce Labs Demo Site](https://www
 
 ## References
 
-- Crispin, L., & Gregory, J. (2009). *Agile Testing: A Practical Guide for Testers and Agile Teams.*
-- Knorr, F., & Gonçalves, P. (2020). *Agile Testing Condensed – PT-BR Edition.*
-- Myers, G. J., Sandler, C., & Badgett, T. (2011). *The Art of Software Testing.*
-- Black, R. (2009). *Managing the Testing Process.*
-- Kaner, C., Bach, J., & Pettichord, B. (2002). *Lessons Learned in Software Testing.*
+- Crispin, L., & Gregory, J. (2009). *Agile Testing: A Practical Guide for Testers and Agile Teams*
+- Knorr, F., & Gonçalves, P. (2020). *Agile Testing Condensed – PT-BR Edition*
+- Myers, G. J., Sandler, C., & Badgett, T. (2011). *The Art of Software Testing*
+- Black, R. (2009). *Managing the Testing Process*
+- Kaner, C., Bach, J., & Pettichord, B. (2002). *Lessons Learned in Software Testing*
 
 ---
 
