@@ -30,7 +30,15 @@
 - The system should display an error: "Postal Code is invalid" for codes longer than 10 digits.
 
 **Evidence:**  
-- [Attach screenshot here if available]
+
+**Empty Cart**
+![Postal code invalid but accepted - Checkout: Your Information](../evidence/bug-postalcode-invalid-accepted-001.png)
+
+**Cart with Item**
+![Postal code invalid but accepted - Checkout: Your Information](../evidence/bug-postalcode-invalid-accepted-002.png)
+
+**Checkout Page**
+![Postal code invalid but accepted - Checkout: Overview](../evidence/bug-postalcode-invalid-accepted-003.png)
 
 **Severity:** Minor  
 **Priority:** Medium
